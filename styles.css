@@ -55,6 +55,13 @@ main {
     margin-top: 1.2em;
 }
 
+.title-two {
+    font-size: 1.4em;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+}
+
 .description {
     color: hsl(220, 15%, 55%);
     font-weight: 400;

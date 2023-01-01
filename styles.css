@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *, *::after, *::before {
     box-sizing: border-box;
@@ -20,24 +20,25 @@ body {
     background: hsl(212, 45%, 89%);
 }
 
-.outer-contener {
-    width: 25em;
-    height: 35em;
+.conteiner {
+    width: 22em;
+    height: 32em;
     background-color: hsl(0, 0%, 100%);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 4%;   
+    border-radius: 4%;
 }
 
-.inner-contener {
-    width: 23em;
-    height: 20em;
-    background-color: #2b7dfa;
-    /* position: relative; */
-    margin: 1em;
-    border-radius: 4%;
-    
+.image-conteiner {
+    display: flex;
+    justify-content: center;
+}
 
+.qr-code {
+    margin: 1em;
+    position: relative;
+    max-height: 20em;
+    border-radius: 4%;
 }

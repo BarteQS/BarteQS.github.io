@@ -17,7 +17,7 @@ img {
     max-width: 100%;
 }
 
-.conteiner {
+main {
     width: 22em;
     height: 34em;
     background-color: hsl(0, 0%, 100%);
@@ -26,6 +26,16 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 5%;
+}
+
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 .qr-code {
@@ -47,4 +57,16 @@ img {
     font-weight: 400;
     text-align: center;
     margin-top: 1em;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    font-size: 0.75em;
+    text-align: center;
+}
+
+footer a {
+    color: black
 }

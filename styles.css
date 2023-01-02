@@ -21,8 +21,10 @@ img {
 }
 
 main {
-    width: 22em;
-    height: 34em;
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 22em;
+    min-height: 34em;
     background-color: hsl(0, 0%, 100%);
     position: absolute;
     top: 50%;
@@ -51,23 +53,30 @@ main {
     font-size: 1.4em;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
-    text-align: center;
-    margin-top: 1.2em;
+    margin: auto;
+    margin-top: 0.7em;
+    margin-bottom: 0;
 }
 
 .title-two {
     font-size: 1.4em;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
-    text-align: center;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 1em;
 }
 
 .description {
     color: hsl(220, 15%, 55%);
     font-weight: 400;
     text-align: center;
-    margin-top: 1em;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+
 
 footer {
     width: 100%;

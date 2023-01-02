@@ -1,3 +1,5 @@
+/* Bartosz Utratny */
+
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 * {
@@ -18,13 +20,17 @@ img {
 }
 
 main {
+    display: flex;
+    flex-flow: column nowrap;
+	align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card {
     width: 22em;
     height: 34em;
     background-color: hsl(0, 0%, 100%);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     border-radius: 5%;
 }
 
@@ -70,5 +76,3 @@ footer {
 footer a {
     color: black
 }
-
-/* Comment */
